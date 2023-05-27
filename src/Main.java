@@ -4,10 +4,10 @@ public class Main {
         int balance = 100;
         int recharge = 300;
 
-        if(recharge<1000) {
+        if (recharge < 1000) {
             balance = balance + recharge;
         } else {
-            balance = balance+recharge+(recharge/100);
+            balance = balance + recharge + (recharge / 100);
         }
         System.out.println(balance);
     }
